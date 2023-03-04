@@ -16,6 +16,11 @@ body {
     text-align: center;
     width: 100vw;
     overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+
+   
+
 }
 h1 {
     color: #29A9B4;
@@ -24,9 +29,7 @@ h1 {
     font-size: 7rem;
 	font-family:'Shadows Into Light', cursiva ;
 }
-#nombrePrincipal {
-    background-image: url(../img/cruz.jpg);
-}
+
 #subti {
     color: #29A9B4;
     padding: 1rem;
@@ -119,3 +122,5 @@ h4 {
         font-family: 'Times New Roman', Times, serif;
         font-size: 3rem;
     }
+
+    

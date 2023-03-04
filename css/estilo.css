@@ -10,7 +10,7 @@
 header ul li {
   display: inline-table;
   text-align: center, bold;
-  padding: 1rem 11rem 1rem 11rem;
+  padding: 1rem 1rem 1rem 1rem;
   border: 16rem;
   background-color: bisque;
   font-weight: bold;
@@ -24,11 +24,17 @@ a {
   font-weight: bold;
 }
 
+#nombrePrincipal {
+  background-image: url(../img/cruz.jpg);
+}
+
 /*FOOTER*/
 footer {
   border: 1px solid;
   text-align: center;
   background-color: #07E4F3;
+  position: absolute;
+  margin-bottom: 0;
 }
 
 footer div ul li {
@@ -48,10 +54,6 @@ footer h5 {
   font-size: 1rem;
 }
 
-nav {
-  background-color: azure;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -62,6 +64,8 @@ body {
   text-align: center;
   width: 100vw;
   overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
 }
 
 h1 {
@@ -70,10 +74,6 @@ h1 {
   text-align: center;
   font-size: 7rem;
   font-family: "Shadows Into Light", cursiva;
-}
-
-#nombrePrincipal {
-  background-image: url(../img/cruz.jpg);
 }
 
 #subti {

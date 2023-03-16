@@ -1,13 +1,20 @@
 header ul li {
     display: inline-table;
     text-align: center, bold;
-    padding: 1rem 1rem 1rem 1rem;
-    border: 16rem;
-    background-color:bisque;
+    // padding: 1rem 5rem 1rem 5rem;
+    border: 0rem;
+    // background-color:rgb(89, 115, 168);
 	font-weight: bold;
 	font-size: 1rem;
-    
+	// margin: auto;
+	// top: 0;
+	// right: 5rem;
+	// bottom: 0;
+	// left: 5rem;
+	overflow-x: hidden;
+	    
 }
+
 	a {
 		color: black;
 		text-decoration-line: line;
@@ -17,4 +24,26 @@ header ul li {
 
 	#nombrePrincipal {
 		background-image: url(../img/cruz.jpg);
+		width: 98%;
+		margin: auto;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
 	}
+
+	.chicharron {
+		overflow-x: hidden;	
+		margin: auto;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+	}
+
+	.container-fluid{
+		padding: 0;
+		
+	}
+	

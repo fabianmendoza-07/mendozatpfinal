@@ -193,32 +193,65 @@ p {
 }
 .btn {
   margin: 10rem;
-  display: inline-table;
   font-size: 3rem;
 }
 
 .btn-primary {
   background-color: #0f459c;
+  box-shadow: 10px 20px 10px;
 }
 
 .btn-secondary {
   background-color: #5f2c82;
+  box-shadow: 10px 20px 10px;
 }
 
 .decaFe {
-  text-align: center;
   color: rgb(44, 69, 69);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.decaFe1 {
+  text-align: center;
+  padding: 5rem 0rem 0rem 0rem;
   font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
 }
 
 .video {
-  padding: 3rem 0rem 0rem 0rem;
+  padding: 10rem 0rem 10rem 0rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 iframe {
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.cajas {
+  padding-top: 2rem;
+}
+
+.cajas2 {
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #29A9B4;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2rem;
+  margin: 1rem 1rem 7rem 1rem;
+  border-top: 2px;
+  border-radius: 20px;
+}
+
+.malaquias {
+  width: 40rem;
+  height: 35rem;
+  border-radius: 4px;
+  box-shadow: 10px 20px 10px;
+}
+
+.mt-3 {
+  padding: 5rem 0rem 10rem 0rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */
